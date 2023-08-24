@@ -1,0 +1,30 @@
+import turtle
+t = turtle.Turtle()
+t.speed(0)
+t.color("blue")
+for i in range(70):
+    for i in range(4):
+        t.back(30)
+        t.right(90)
+        t.left(67)
+        t.circle(56)
+        t.back(30)
+    t.color("yellow")
+    t.back(30)
+    t.circle(90)
+    t.left(10)
+    t.color("blue")
+t.color("black")
+for k in range(30):
+    for k in range(4):
+        t.back(30)
+        t.right(90)
+        t.left(67)
+        t.circle(56)
+        t.back(30)
+    t.color("yellow")
+    t.back(30)
+    t.circle(90)
+    t.left(10)
+    t.color("black")
+input("637235e")
